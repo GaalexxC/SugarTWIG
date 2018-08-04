@@ -5,8 +5,8 @@ Responsive Boilerplate using TWIG template system
 
 [![License](https://img.shields.io/badge/License-GNUv3-blue.svg)](https://github.com/GaalexxC/SugarTWIG/blob/master/LICENSE)
 [![Version](https://img.shields.io/badge/Version-0.01-blue.svg) ](https://github.com/GaalexxC/SugarTWIG/wiki)
-[![Status](https://img.shields.io/badge/Status-New-blue.svg)](https://github.com/GaalexxCSugarTWIG/wiki/Current-State)
-[![Development](https://img.shields.io/badge/Development-New-blue.svg)](https://github.com/GaalexxC/SugarTWIG/wiki/About)
+[![Status](https://img.shields.io/badge/Status-New-blue.svg)](https://github.com/GaalexxCSugarTWIG/wiki)
+[![Development](https://img.shields.io/badge/Development-New-blue.svg)](https://github.com/GaalexxC/SugarTWIG/wiki)
 
 ```diff
 - THIS IS AN INCOMPLETE VERSION UNDER DEVELOPMENT AND SHOULD NOT BE USED IN ANY ENVIRONMENT!!!
@@ -22,6 +22,6 @@ GNU General Public License v3.0
 
 ## Development / Contribute
 
-Pre-Release Development [Current dev state](https://github.com/GaalexxC/ASAS/wiki/Current-State)
+Pre-Release Development [Current dev state](https://github.com/GaalexxC/SugarTWIG/wiki)
 
-Issue Tracker - Home [Issue Tracker - Home](https://www.devcu.com/forums/devcu-tracker/asas/)
+Issue Tracker - Home [Issue Tracker - Home](https://www.devcu.com/forums/devcu-tracker/sugartwig/)
