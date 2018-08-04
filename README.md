@@ -1,5 +1,5 @@
 # SugarTWIG
-Responsive Boilerplate using TWIG template system
+Responsive | Dynamic Boilerplate using TWIG template system
 
 ![devCUHead](https://www.devcu.com/assets/images/githead.png?V=1.2)
 
