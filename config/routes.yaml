@@ -1,0 +1,23 @@
+index:
+    path: /
+    controller: App\Controller\Frontend\Front::index
+
+services:
+    path: /services
+    controller: App\Controller\Frontend\Pages\Services::services
+
+servers:
+    path: /servers
+    controller: App\Controller\Frontend\Pages\Services::servers
+
+design:
+    path: /design
+    controller: App\Controller\Frontend\Pages\Services::design
+
+custom:
+    path: /custom
+    controller: App\Controller\Frontend\Pages\Services::custom
+
+clients:
+    path: /clients
+    controller: App\Controller\Frontend\Pages\Services::clients

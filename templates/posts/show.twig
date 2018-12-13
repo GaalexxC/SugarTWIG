@@ -1,0 +1,73 @@
+{% extends "layout.twig" %}
+
+{% block content %}
+
+   <div id="preloader" class="smooth-loader-wrapper">
+    <div class="smooth-loader">
+      <div class="loader1">
+        <div class="loader-target">
+          <div class="loader-target-main"></div>
+          <div class="loader-target-inner"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% include 'includes/nav.twig' %}
+
+  <div class="main-wrapper home">
+    <section>
+      <div class="owl-carousel home-carousel carousel-style-one" id="homeCarousel">
+        <div class="carousel-item active bg-image" style="background-image:url(assets/img/home-slide-1.jpg)">
+          <div class="carousel-description text-left animated fadeIn">
+            <div class="container">
+              <h1 class="heading-title-xl">Dedicated
+                <br>Server Specialists</h1>
+              <p>From OS and application installation to security hardening and efficient optimization<br> We build the most exceptional servers to run your web presence worry free</p>
+              <div class="slider-btn">
+                <a href="" class="btn btn-white">More Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active bg-image" style="background-image:url(assets/img/home-slide-2.jpg)">
+          <div class="carousel-description text-left animated fadeIn">
+            <div class="container">
+              <h1 class="heading-title-xl">Customized
+                <br>  OpenStack Cloud</h1>
+                <p>Want the ultimate setup for your business? Lets us build your secure private cloud <br> and control 100% of your web presence from the start</p>
+              <div class="slider-btn">
+                <a href="" class="btn btn-white">More Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item active bg-image" style="background-image:url(assets/img/home-slide-3.jpg)">
+          <div class="carousel-description text-left animated fadeIn">
+            <div class="container">
+              <h1 class="heading-title-xl">Pre-Built  
+                <br>Server Deals</h1>
+                <p>We have a wide array of dedicated servers ready to go <br> Need a special setup? Let us know and we will meet your every need. </p>
+              <div class="slider-btn">
+                <a href="" class="btn btn-white">More Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pv100">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12">
+    <h1>{{ post.title }}</h1>
+    {{ post.content }}
+    <a href="{{ path('posts') }}">Back</a>
+          </div>
+        </div>
+      </div>
+    </section>
+{% include 'includes/footer.twig' %}
+
+{% endblock %}
