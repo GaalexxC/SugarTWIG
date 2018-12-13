@@ -1,5 +1,5 @@
 # SugarTWIG
-Responsive | Dynamic Boilerplate via TWIG template system using Symfony Framework
+Sweet | Responsive | Dynamic Boilerplate via TWIG template system using Symfony Framework
 
 ![devCUHead](https://www.devcu.com/assets/images/githead.png?V=1.2)
 
